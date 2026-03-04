@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary brand colors -- teal */
+  --color-pe-primary-50: var(--pe-color-primary-50);
+  --color-pe-primary-100: var(--pe-color-primary-100);
+  --color-pe-primary-200: var(--pe-color-primary-200);
+  --color-pe-primary-300: var(--pe-color-primary-300);
+  --color-pe-primary-400: var(--pe-color-primary-400);
+  --color-pe-primary-500: var(--pe-color-primary-500);
+  --color-pe-primary-600: var(--pe-color-primary-600);
+  --color-pe-primary-700: var(--pe-color-primary-700);
+  --color-pe-primary-800: var(--pe-color-primary-800);
+  --color-pe-primary-900: var(--pe-color-primary-900);
+
+  /* Gray scale */
+  --color-pe-gray-50: var(--pe-color-gray-50);
+  --color-pe-gray-100: var(--pe-color-gray-100);
+  --color-pe-gray-200: var(--pe-color-gray-200);
+  --color-pe-gray-300: var(--pe-color-gray-300);
+  --color-pe-gray-400: var(--pe-color-gray-400);
+  --color-pe-gray-500: var(--pe-color-gray-500);
+  --color-pe-gray-600: var(--pe-color-gray-600);
+  --color-pe-gray-700: var(--pe-color-gray-700);
+  --color-pe-gray-800: var(--pe-color-gray-800);
+  --color-pe-gray-900: var(--pe-color-gray-900);
+
+  /* Semantic colors */
+  --color-pe-text-primary: var(--pe-color-text-primary);
+  --color-pe-text-secondary: var(--pe-color-text-secondary);
+  --color-pe-bg-primary: var(--pe-color-bg-primary);
+  --color-pe-bg-secondary: var(--pe-color-bg-secondary);
+  --color-pe-border-light: var(--pe-color-border-light);
+  --color-pe-success: var(--pe-color-success);
+  --color-pe-error: var(--pe-color-error);
+  --color-pe-warning: var(--pe-color-warning);
+  --color-pe-info: var(--pe-color-info);
+
+  /* Spacing */
+  --spacing-pe-xs: var(--pe-space-xs);
+  --spacing-pe-sm: var(--pe-space-sm);
+  --spacing-pe-md: var(--pe-space-md);
+  --spacing-pe-lg: var(--pe-space-lg);
+  --spacing-pe-xl: var(--pe-space-xl);
+  --spacing-pe-2xl: var(--pe-space-2xl);
+  --spacing-pe-3xl: var(--pe-space-3xl);
+  --spacing-pe-4xl: var(--pe-space-4xl);
+
+  /* Typography -- font families */
+  --font-pe: var(--pe-font-family-primary), "Inter", sans-serif;
+  --font-pe-mono: var(--pe-font-family-mono), "JetBrains Mono", monospace;
+
+  /* Typography -- font sizes */
+  --text-*: initial;
+  --text-xs: var(--pe-font-size-xs);
+  --text-sm: var(--pe-font-size-sm);
+  --text-base: var(--pe-font-size-base);
+  --text-lg: var(--pe-font-size-lg);
+  --text-xl: var(--pe-font-size-xl);
+  --text-2xl: var(--pe-font-size-2xl);
+  --text-3xl: var(--pe-font-size-3xl);
+  --text-4xl: var(--pe-font-size-4xl);
+
+  /* Border radius */
+  --radius-pe-sm: var(--pe-radius-element);
+  --radius-pe-md: 6px;
+  --radius-pe-lg: var(--pe-radius-container);
+
+  /* shadcn/ui semantic tokens -- bridge to PE equivalents */
+  --color-background: var(--pe-color-bg-primary);
+  --color-foreground: var(--pe-color-gray-900);
+  --color-primary: var(--pe-color-primary-600);
+  --color-primary-foreground: var(--pe-color-text-inverse);
+  --color-muted: var(--pe-color-gray-100);
+  --color-muted-foreground: var(--pe-color-text-secondary);
+  --color-border: var(--pe-color-border-light);
+  --color-ring: var(--pe-color-primary-500);
+}
